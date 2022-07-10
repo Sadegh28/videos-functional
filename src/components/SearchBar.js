@@ -11,8 +11,8 @@ function SearchBar({ label, setSearchTerm }) {
   }
   return (
     <form onSubmit={onSearchSubmit}>
-      <div class="mb-3">
-        <label for="searchInput" className="h5">{label}</label>
+      <div className="mb-3">
+        <label className="h5">{label}</label>
         <input ref={termRef} type="text" className="form-control" id="searchInput" ></input>
       </div>
     </form>
